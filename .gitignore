@@ -147,3 +147,19 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Public demo: never commit private data, credentials or Python caches
+*.key
+*.pem
+*.p12
+*.sqlite
+*.db
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+secrets/
+private/
+observations/
+transcripts/

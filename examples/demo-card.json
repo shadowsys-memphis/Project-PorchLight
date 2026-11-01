@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1-demo",
+  "card_id": "SYNTHETIC-DEMO-001",
+  "project": "fictional-lighthouse",
+  "objective": "Publish a fictional status page",
+  "verified_facts": [
+    {"id": "fact-01", "statement": "Example data only", "source": "synthetic-fixture"}
+  ],
+  "task": {
+    "id": "DEMO-001",
+    "acceptance_criteria": ["unit-tests-pass", "page-reachable"],
+    "evidence": ["unit-tests-pass"],
+    "owner_approved": false,
+    "agent_reported_status": "complete"
+  }
+}
